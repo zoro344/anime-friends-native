@@ -1,0 +1,45 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+.news-token
+**/.news-token
+
+# Node.js
+node_modules/
+**/node_modules/
+
+# Private database and backups
+backend/data/*.json
+backend/backups/
+backend/*.backup*
+backend/*.bak
+backend/*.before-*
+**/*.backup-*
+**/*.bak
+
+# Android and Gradle build files
+.gradle/
+**/.gradle/
+build/
+**/build/
+local.properties
+**/local.properties
+
+# APK and app bundles
+*.apk
+*.aab
+
+# Signing credentials
+*.jks
+*.keystore
+key.properties
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
